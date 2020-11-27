@@ -1,15 +1,40 @@
-
 <html>
-<body>
-       <a href="file-one.html">file-one</a>
-</br>
-       <a href="file-two.html">file-two</a>
-</br>
-       <a href="file-three.html">file-three</a>
-</br>
-       <a href="file-four.html">file-four</a>
-</br>
-
-       Created IndexFile By Milad
-</body>
+  <head>
+    <style>
+      .linkPages {
+        padding: 20px;
+        border-radius: 15px;
+        background-color: lightgray;
+        text-align: center;
+        margin-bottom: 10px;
+        transition: 0.5s;
+      }
+      .linkPages:hover {
+        background-color: rgb(133, 133, 133);
+        transition: 0.5s;
+      }
+      a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <a href="file-one.html">
+        <div class="linkPages">file-one</div>
+      </a>
+      <div class="linkPages">
+        <a href="file-two.html">file-two</a>
+      </div>
+      <div class="linkPages">
+        <a href="file-three.html">file-three</a>
+      </div>
+      <div class="linkPages">
+        <a href="file-four.html">file-four</a>
+      </div>
+    </div>
+  </body>
 </html>
